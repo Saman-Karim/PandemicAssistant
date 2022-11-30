@@ -1,0 +1,156 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "This is a helper skill for Pandemic board game",
+          "examplePhrases": [
+            "Alexa, open pandemic assistant",
+            "Alexa, rules",
+            "Alexa, setup"
+          ],
+          "keywords": [
+            "pandemic",
+            "board",
+            "game"
+          ],
+          "name": "Pandemic Assistant",
+          "description": "We created this skill for research purposes, to explore how Amazon Alexa can be used to make rule learning more accessible for blind or low vision board game players.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-CA": {
+          "summary": "This is a helper skill for Pandemic board game",
+          "examplePhrases": [
+            "Alexa, open pandemic assistant",
+            "Alexa, rules",
+            "Alexa, setup"
+          ],
+          "keywords": [
+            "pandemic",
+            "board",
+            "game"
+          ],
+          "name": "Pandemic Assistant",
+          "description": "We created this skill for research purposes, to explore how Amazon Alexa can be used to make rule learning more accessible for blind or low vision board game players.",
+          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
+        },
+        "en-IN": {
+          "summary": "This is a helper skill for Pandemic board game",
+          "examplePhrases": [
+            "Alexa, open pandemic assistant",
+            "Alexa, rules",
+            "Alexa, setup"
+          ],
+          "keywords": [
+            "pandemic",
+            "board",
+            "game"
+          ],
+          "name": "Pandemic Assistant",
+          "description": "We created this skill for research purposes, to explore how Amazon Alexa can be used to make rule learning more accessible for blind or low vision board game players.",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        },
+        "en-AU": {
+          "summary": "This is a helper skill for Pandemic board game",
+          "examplePhrases": [
+            "Alexa, open pandemic assistant",
+            "Alexa, rules",
+            "Alexa, setup"
+          ],
+          "keywords": [
+            "pandemic",
+            "board",
+            "game"
+          ],
+          "name": "Pandemic Assistant",
+          "description": "We created this skill for research purposes, to explore how Amazon Alexa can be used to make rule learning more accessible for blind or low vision board game players.",
+          "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
+        },
+        "en-GB": {
+          "summary": "This is a helper skill for Pandemic board game",
+          "examplePhrases": [
+            "Alexa, open pandemic assistant",
+            "Alexa, rules",
+            "Alexa, setup"
+          ],
+          "keywords": [
+            "pandemic",
+            "board",
+            "game"
+          ],
+          "name": "Pandemic Assistant",
+          "description": "We created this skill for research purposes, to explore how Amazon Alexa can be used to make rule learning more accessible for blind or low vision board game players.",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "TABLETOP_GAMES",
+      "distributionMode": "PUBLIC",
+      "automaticClonedLocale": {
+        "locales": [
+          {
+            "source": "en-US"
+          }
+        ]
+      },
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:024600778585:function:5722f6f7-a595-4917-bf1e-fe2ff0ee9dbf:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:024600778585:function:5722f6f7-a595-4917-bf1e-fe2ff0ee9dbf:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:024600778585:function:5722f6f7-a595-4917-bf1e-fe2ff0ee9dbf:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:024600778585:function:5722f6f7-a595-4917-bf1e-fe2ff0ee9dbf:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {},
+        "en-CA": {},
+        "en-IN": {},
+        "en-AU": {},
+        "en-GB": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}

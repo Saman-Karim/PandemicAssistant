@@ -1,0 +1,276 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "pandemic assistant",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "SetupIntent",
+          "slots": [],
+          "samples": [
+            "setup",
+            "open the set up guide",
+            "setup guide for pandemic",
+            "how to setup pandemic",
+            "how to setup",
+            "tell me about setup",
+            "how to setup the game"
+          ]
+        },
+        {
+          "name": "RuleIntent",
+          "slots": [],
+          "samples": [
+            "tell me how to play",
+            "tell us how to play",
+            "how to play pandemic",
+            "how to play",
+            "rules",
+            "tell me the rules",
+            "what are the rules"
+          ]
+        },
+        {
+          "name": "DifficultyIntent",
+          "slots": [
+            {
+              "name": "difficulty",
+              "type": "DifficultyLevel"
+            }
+          ],
+          "samples": [
+            "{difficulty}"
+          ]
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "NumberOfPlayersIntent",
+          "slots": [
+            {
+              "name": "players",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "{players}"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "RoleIntent",
+          "slots": [
+            {
+              "name": "role",
+              "type": "Role"
+            }
+          ],
+          "samples": [
+            "what can {role} do",
+            "tell me about {role}",
+            "{role}",
+            "roles",
+            "tell me about the roles"
+          ]
+        },
+        {
+          "name": "OutbreakIntent",
+          "slots": [],
+          "samples": [
+            "an outbreak",
+            "tell me the rules of an outbreak",
+            "what happens when the outbreak occurs",
+            "what happens in the case of outbreak",
+            "what is an outbreak",
+            "tell me about outbreak",
+            "outbreak"
+          ]
+        },
+        {
+          "name": "EpidemicIntent",
+          "slots": [],
+          "samples": [
+            "an epidemic",
+            "what are the rules of an epidemic",
+            "tell me about epidemic",
+            "what is an epidemic",
+            "epidemic"
+          ]
+        },
+        {
+          "name": "ActionsIntent",
+          "slots": [],
+          "samples": [
+            "player actions",
+            "tell me about actions",
+            "what actions can I take",
+            "what are my available actions",
+            "actions"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayStreamIntent",
+          "slots": [],
+          "samples": [
+            "play"
+          ]
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "CustomizeMusicIntent",
+          "slots": [
+            {
+              "name": "value",
+              "type": "value"
+            }
+          ],
+          "samples": [
+            "turn music {value}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "heroic",
+                "synonyms": [
+                  "heroic",
+                  "Hard"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "normal",
+                "synonyms": [
+                  "normal",
+                  "Medium"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "introductory",
+                "synonyms": [
+                  "introductory",
+                  "Easy"
+                ]
+              }
+            }
+          ],
+          "name": "DifficultyLevel"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "researcher",
+                "synonyms": [
+                  "the researcher"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "scientist",
+                "synonyms": [
+                  "the scientist"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "quarantine specialist",
+                "synonyms": [
+                  "the quarantine specialist"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "operations expert",
+                "synonyms": [
+                  "the operations expert"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "dispatcher",
+                "synonyms": [
+                  "the dispatcher"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": " contingency planner",
+                "synonyms": [
+                  "the contingency planner"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "medic",
+                "synonyms": [
+                  "the medic"
+                ]
+              }
+            }
+          ],
+          "name": "Role"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "off"
+              }
+            },
+            {
+              "name": {
+                "value": "on"
+              }
+            }
+          ],
+          "name": "value"
+        }
+      ]
+    }
+  },
+  "version": "42"
+}
